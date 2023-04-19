@@ -1,0 +1,1845 @@
+
+#footer {
+    background-color: aliceblue;
+}
+
+#hi5 {
+  position: relative;
+margin-top: 10px;
+margin: 10px;
+}
+
+#hi {
+    position: absolute;
+    top: -85px;
+    font-size: 80px;
+    color: blue;
+    font-weight: bold;
+}
+
+#cinco {
+  color: orange;
+  font-size: 100px;
+  font-weight: bold;
+}
+#buscador {
+    position: relative;
+justify-content: center;
+align-items: center;
+place-content: center;
+display: flex;
+padding: 5px;
+background-color: rgb(242, 242, 245);
+height: 80px;
+width: 600px;
+margin-left: calc(50% - 300px);
+}
+#cabecera{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:calc(100% - 99%);
+    margin: 2px;
+}
+
+
+.cabecerahover:hover {
+    color: blue;
+}
+
+#inputBuscador {
+    width: 350px;
+    height: 22px;
+}
+
+#vamos{
+    font-weight: bold;
+}
+
+#googleG {
+    font-size: 35px;
+    color: blue;
+}
+
+#googleO1 {
+    font-size: 30px;
+    color: red;
+}
+
+#googleO2 {
+    font-size: 30px;
+    color: yellow;
+}
+
+#googleG2 {
+    font-size: 30px;
+    color: blue;
+}
+
+#googleL{
+    font-size: 30px;
+    color: green;
+}
+
+#googleE {
+    font-size: 30px;
+    color: red;
+}
+
+#barraNavegacion {
+    position: relative;
+    margin: 5px;
+}
+
+
+#ayuda {
+    list-style: none;
+   display: flex;
+   flex-direction: row;
+   margin:  5px;
+   margin-left: calc(100% - 22%);
+}
+
+#navegacion {
+    list-style: none;
+   display: flex;
+   flex-direction: row;
+   margin:  5px;
+
+}
+
+.lista {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 1px;
+    margin: 1px;
+    width: 87px;
+    
+    background-color: rgb(242, 242, 245);
+}
+
+.lista1{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    margin: 1px;
+    width: 30px;
+    
+}
+
+.lista1:hover {
+    color: blue;
+    font-size: 20px;
+}
+
+.lista:hover {
+    color: blue;
+    font-size: 20px;
+}
+
+
+h1 {
+    justify-content: center;
+    border-radius: 10px;
+    place-items: center;
+    margin-left: calc(50% - 330px);
+    padding: 30px;
+    background-color: rgb(111, 111, 233);
+    color: white;
+    width: 400px;
+    height: 120px;
+}
+
+#imagen1 {
+    position: absolute;
+    background-color: green;
+    top: calc(100% - 95%);
+    left: calc(100% - 95%);
+    width: 300px;
+    height: 150px;
+}
+
+#contenido {
+    position: relative;
+}
+#noticias {
+    margin-left: calc(50% - 580px);
+    justify-content: calc(50% - 350px);
+    display: flex;
+    flex-direction: column;
+}
+
+.noticia {
+
+    justify-content: center;
+}
+
+.titular {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.titular:hover {
+    font-size: 28px;
+    color: blue;
+}
+
+.contenidoNoticia {
+    font-size: 18px;
+    
+}
+
+#paginaContenedorGeneral {
+    position: relative;
+    
+}
+
+#pagDerecha {
+    margin-left: calc(100% - 37%);
+    margin-top: calc((100% - 100%) - 615px);
+}
+
+#iniciarSesion {
+    color: orange;
+    font-size: 18px;
+}
+
+#Espera {
+    color: blue;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#formulario1{
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    width: 320px;
+    background-color: rgb(227, 227, 229);
+    
+}
+
+#contenedor1{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+   
+    
+    align-items: center;
+   
+
+}
+#contraseña {
+    margin-left: 68px;
+}
+
+#contenedor2 {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+
+
+.input {
+    height: 15px;
+    margin-left: calc(100% - 95%);
+    justify-content: center;
+}
+
+#olvidaste {
+    margin-top: -5px;
+    color: blue;
+    margin-left: calc(100% - 52%);
+    font-size: 12px;
+}
+
+#formulario2 {
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    width: 320px;
+    background-color: rgb(227, 227, 229);
+    
+}
+
+#iniciarSesionButton {
+ font-weight: bold;
+ font-size: 18px;
+ align-items: center;
+ justify-content: center;
+ margin-left: calc(50% - 65px);
+}
+
+#miembro {
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+    padding: 10px;
+
+}
+
+#registrarse {
+    margin-left: calc(50% - 60px);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px;
+}
+@media  (min-width: 320px){
+    
+    #footer {
+        background-color: aliceblue;
+        width: 600px;
+        min-width: 480px;
+        max-width: 610px;
+    }
+
+    
+    #hi5 {
+      position: relative;
+    margin-top: 10px;
+    margin: 10px;
+    }
+    
+    #hi {
+        position: absolute;
+        top: -78px;
+        font-size: 60px;
+        color: blue;
+        font-weight: bold;
+    }
+    
+    #cinco {
+      color: orange;
+      font-size: 70px;
+      font-weight: bold;
+    }
+    #buscador {
+        position: relative;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    display: flex;
+    padding: 5px;
+    background-color: rgb(242, 242, 245);
+    height: 80px;
+    width: 600px;
+    margin-left: calc(50% - 304.25px);
+    }
+    #cabecera{
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top:calc(100% - 99%);
+        margin: 2px;
+    }
+    
+    
+    .cabecerahover:hover {
+        color: blue;
+    }
+    
+    #inputBuscador {
+        width: 350px;
+        height: 22px;
+    }
+    
+    #vamos{
+        font-weight: bold;
+    }
+    
+    #googleG {
+        font-size: 35px;
+        color: blue;
+    }
+    
+    #googleO1 {
+        font-size: 30px;
+        color: red;
+    }
+    
+    #googleO2 {
+        font-size: 30px;
+        color: yellow;
+    }
+    
+    #googleG2 {
+        font-size: 30px;
+        color: blue;
+    }
+    
+    #googleL{
+        font-size: 30px;
+        color: green;
+    }
+    
+    #googleE {
+        font-size: 30px;
+        color: red;
+    }
+    
+    #barraNavegacion {
+        position: relative;
+        margin: 0px;
+    }
+    
+    
+    #ayuda {
+        list-style: none;
+       display: flex;
+       flex-direction: row;
+       margin:  5px;
+       margin-left: calc(100% - 38%);
+       width: 250px;
+    }
+    
+    #navegacion {
+        list-style: none;
+       display: flex;
+       flex-direction: row;
+       margin:  2px;
+    
+    }
+    
+    .lista {
+        font-weight: bold;
+        font-size: 12px;
+        padding: 1px;
+        margin: 4px;
+        width: 95px;
+        
+        background-color: rgb(242, 242, 245);
+    }
+    
+    .lista1{
+        font-weight: bold;
+        font-size: 12px;
+        padding: 5px;
+        margin: 1px;
+        width: 30px;
+        
+    }
+    
+    .lista1:hover {
+        color: blue;
+        font-size: 13px;
+    }
+    
+    .lista:hover {
+        color: blue;
+        font-size: 13px;
+    }
+    
+    
+    h1 {
+        justify-content: center;
+        border-radius: 10px;
+        place-items: center;
+        margin-left: 0;
+        padding: 30px;
+        background-color: rgb(111, 111, 233);
+        color: white;
+        width: 200px;
+        font-size: 18px;
+        height: 60px;
+    }
+    
+    #imagen1 {
+        position: absolute;
+        background-color: green;
+        top: calc(100% - 0%);
+        left: calc(100% - 98.5%);
+        width: 260px;
+        height: 150px;
+    }
+    
+    #contenido {
+        position: relative;
+    }
+    #noticias {
+        margin-left: 0;
+        margin-top: calc(50% + 15px);
+        justify-content: calc(50% - 350px);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .noticia {
+        width: 180px;
+        justify-content: center;
+    }
+    
+    .titular {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .titular:hover {
+        font-size: 20px;
+        color: blue;
+    }
+    
+    .contenidoNoticia {
+        font-size: 12px;
+        
+    }
+    
+
+    #main {
+        position: relative;
+    }
+
+    #paginaContenedorGeneral {
+        display: flex;
+        
+    }
+    
+    #pagDerecha {
+
+        margin-left: 2%;
+        margin-top: 0%; 
+    }
+    #contenedorPagDerecha {
+        position: relative;
+    }
+    
+    #iniciarSesion {
+        color: orange;
+        font-size: 18px;
+    }
+    
+    #Espera {
+        color: blue;
+        font-size: 20px;
+        padding: 15px;
+    }
+    
+    #formulario1{
+        margin: 10px;
+        padding: 5px;
+        position: relative;
+        width: 320px;
+        background-color: rgb(227, 227, 229);
+        
+    }
+    
+    #contenedor1{
+        width: 350px;
+        display: flex;
+        flex-direction: row;
+       
+        
+        align-items: center;
+       
+    
+    }
+    #contraseña {
+        margin-left: 68px;
+    }
+    
+    #contenedor2 {
+        width: 350px;
+        display: flex;
+        flex-direction: row;
+        
+        align-items: center;
+    }
+    
+    
+    .input {
+        height: 15px;
+        margin-left: calc(100% - 95%);
+        justify-content: center;
+    }
+    
+    #olvidaste {
+        margin-top: -5px;
+        color: blue;
+        margin-left: calc(100% - 52%);
+        font-size: 12px;
+    }
+    
+    #formulario2 {
+        margin: 10px;
+        padding: 5px;
+        position: relative;
+        width: 320px;
+        background-color: rgb(227, 227, 229);
+        
+    }
+    
+    #iniciarSesionButton {
+     font-weight: bold;
+     font-size: 18px;
+     align-items: center;
+     justify-content: center;
+     margin-left: calc(50% - 65px);
+    }
+    
+    #miembro {
+        font-size: 25px;
+        font-weight: bold;
+        color: blue;
+        padding: 10px;
+    
+    }
+    
+    #registrarse {
+        margin-left: calc(50% - 60px);
+        font-size: 18px;
+        font-weight: bold;
+        padding: 7px;
+    }
+    
+    }
+
+ @media  (min-width: 480px){
+    
+#footer {
+    background-color: aliceblue;
+    width: 600px;
+    min-width: 480px;
+    max-width: 610px;
+}
+
+#hi5 {
+  position: relative;
+margin-top: 10px;
+margin: 10px;
+}
+
+#hi {
+    position: absolute;
+    top: -78px;
+    font-size: 60px;
+    color: blue;
+    font-weight: bold;
+}
+
+#cinco {
+  color: orange;
+  font-size: 70px;
+  font-weight: bold;
+}
+#buscador {
+    position: relative;
+justify-content: center;
+align-items: center;
+place-content: center;
+display: flex;
+padding: 5px;
+background-color: rgb(242, 242, 245);
+height: 80px;
+width: 600px;
+margin-left: calc(50% - 304.25px);
+}
+#cabecera{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:calc(100% - 99%);
+    margin: 2px;
+}
+
+
+.cabecerahover:hover {
+    color: blue;
+}
+
+#inputBuscador {
+    width: 350px;
+    height: 22px;
+}
+
+#vamos{
+    font-weight: bold;
+}
+
+#googleG {
+    font-size: 35px;
+    color: blue;
+}
+
+#googleO1 {
+    font-size: 30px;
+    color: red;
+}
+
+#googleO2 {
+    font-size: 30px;
+    color: yellow;
+}
+
+#googleG2 {
+    font-size: 30px;
+    color: blue;
+}
+
+#googleL{
+    font-size: 30px;
+    color: green;
+}
+
+#googleE {
+    font-size: 30px;
+    color: red;
+}
+
+#barraNavegacion {
+    position: relative;
+    margin: 0px;
+}
+
+
+#ayuda {
+    list-style: none;
+   display: flex;
+   flex-direction: row;
+   margin:  5px;
+   margin-left: calc(100% - 38%);
+   width: 250px;
+}
+
+#navegacion {
+    list-style: none;
+   display: flex;
+   flex-direction: row;
+   margin:  2px;
+
+}
+
+.lista {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 1px;
+    margin: 4px;
+    width: 95px;
+    
+    background-color: rgb(242, 242, 245);
+}
+
+.lista1{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    margin: 1px;
+    width: 30px;
+    
+}
+
+.lista1:hover {
+    color: blue;
+    font-size: 13px;
+}
+
+.lista:hover {
+    color: blue;
+    font-size: 13px;
+}
+
+
+h1 {
+    justify-content: center;
+    border-radius: 10px;
+    place-items: center;
+    margin-left: 0%;
+    padding: 30px;
+    background-color: rgb(111, 111, 233);
+    color: white;
+    width: 200px;
+    font-size: 18px;
+    height: 60px;
+}
+
+#imagen1 {
+    position: absolute;
+    background-color: green;
+    top: calc(100% - 0%);
+    left: 0px;
+    width: 200px;
+    height: 150px;
+}
+
+#contenido {
+    position: relative;
+}
+#noticias {
+    align-items: center;
+    margin-top: 55%;
+    margin-left: -15%;
+    justify-content: calc(50% - 350px);
+    display: flex;
+    flex-direction: column;
+}
+
+.noticia {
+    width: 180px;
+    justify-content: center;
+}
+
+.titular {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.titular:hover {
+    font-size: 20px;
+    color: blue;
+}
+
+.contenidoNoticia {
+    font-size: 12px;
+    
+}
+
+#main {
+    position: relative;
+}
+
+#paginaContenedorGeneral {
+    display: flex;
+    
+}
+
+#pagDerecha {
+
+    margin-left: 2%;
+    margin-top: 0%; 
+}
+#contenedorPagDerecha {
+    position: relative;
+}
+#iniciarSesion {
+    color: orange;
+    font-size: 18px;
+}
+
+#Espera {
+    color: blue;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#formulario1{
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    width: 320px;
+    background-color: rgb(227, 227, 229);
+    
+}
+
+#contenedor1{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+   
+    
+    align-items: center;
+   
+
+}
+#contraseña {
+    margin-left: 68px;
+}
+
+#contenedor2 {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+
+
+.input {
+    height: 15px;
+    margin-left: calc(100% - 95%);
+    justify-content: center;
+}
+
+#olvidaste {
+    margin-top: -5px;
+    color: blue;
+    margin-left: calc(100% - 52%);
+    font-size: 12px;
+}
+
+#formulario2 {
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    width: 320px;
+    background-color: rgb(227, 227, 229);
+    
+}
+
+#iniciarSesionButton {
+ font-weight: bold;
+ font-size: 18px;
+ align-items: center;
+ justify-content: center;
+ margin-left: calc(50% - 65px);
+}
+
+#miembro {
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+    padding: 10px;
+
+}
+
+#registrarse {
+    margin-left: calc(50% - 60px);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px;
+}
+
+} 
+
+
+
+@media  (min-width:  640px){
+    
+    
+#footer {
+    background-color: aliceblue;
+    width: 600px;
+    min-width: 480px;
+    max-width: 610px;
+}
+
+#hi5 {
+  position: relative;
+margin-top: 10px;
+margin: 10px;
+}
+
+#hi {
+    position: absolute;
+    top: -78px;
+    font-size: 60px;
+    color: blue;
+    font-weight: bold;
+}
+
+#cinco {
+  color: orange;
+  font-size: 70px;
+  font-weight: bold;
+}
+#buscador {
+    position: relative;
+justify-content: center;
+align-items: center;
+place-content: center;
+display: flex;
+padding: 5px;
+background-color: rgb(242, 242, 245);
+height: 80px;
+width: 600px;
+margin-left: calc(50% - 304.25px);
+}
+#cabecera{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:calc(100% - 99%);
+    margin: 2px;
+}
+
+
+.cabecerahover:hover {
+    color: blue;
+}
+
+#inputBuscador {
+    width: 350px;
+    height: 22px;
+}
+
+#vamos{
+    font-weight: bold;
+}
+
+#googleG {
+    font-size: 35px;
+    color: blue;
+}
+
+#googleO1 {
+    font-size: 30px;
+    color: red;
+}
+
+#googleO2 {
+    font-size: 30px;
+    color: yellow;
+}
+
+#googleG2 {
+    font-size: 30px;
+    color: blue;
+}
+
+#googleL{
+    font-size: 30px;
+    color: green;
+}
+
+#googleE {
+    font-size: 30px;
+    color: red;
+}
+
+#barraNavegacion {
+    position: relative;
+    margin: 0px;
+}
+
+
+#ayuda {
+    list-style: none;
+   display: flex;
+   flex-direction: row;
+   margin:  5px;
+   margin-left: calc(100% - 38%);
+   width: 250px;
+}
+
+#navegacion {
+    list-style: none;
+   display: flex;
+   flex-direction: row;
+   margin:  2px;
+
+}
+
+.lista {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 1px;
+    margin: 4px;
+    width: 95px;
+    
+    background-color: rgb(242, 242, 245);
+}
+
+.lista1{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    margin: 1px;
+    width: 30px;
+    
+}
+
+.lista1:hover {
+    color: blue;
+    font-size: 13px;
+}
+
+.lista:hover {
+    color: blue;
+    font-size: 13px;
+}
+
+
+h1 {
+    justify-content: center;
+    border-radius: 10px;
+    place-items: center;
+    margin-left: 0%;
+    padding: 30px;
+    background-color: rgb(111, 111, 233);
+    color: white;
+    width: 200px;
+    font-size: 18px;
+    height: 60px;
+}
+
+#imagen1 {
+    position: absolute;
+    background-color: green;
+    top: calc(100% - 0%);
+    left: 0px;
+    width: 200px;
+    height: 150px;
+}
+
+#contenido {
+    position: relative;
+}
+#noticias {
+    align-items: center;
+    margin-top: 55%;
+    margin-left: -15%;
+    justify-content: calc(50% - 350px);
+    display: flex;
+    flex-direction: column;
+}
+
+.noticia {
+    width: 180px;
+    justify-content: center;
+}
+
+.titular {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.titular:hover {
+    font-size: 20px;
+    color: blue;
+}
+
+.contenidoNoticia {
+    font-size: 12px;
+    
+}
+
+#main {
+    position: relative;
+}
+
+#paginaContenedorGeneral {
+    display: flex;
+    
+}
+
+#pagDerecha {
+
+    margin-left: 2%;
+    margin-top: 0%; 
+}
+#contenedorPagDerecha {
+    position: relative;
+}
+#iniciarSesion {
+    color: orange;
+    font-size: 18px;
+}
+
+#Espera {
+    color: blue;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#formulario1{
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    width: 320px;
+    background-color: rgb(227, 227, 229);
+    
+}
+
+#contenedor1{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+   
+    
+    align-items: center;
+   
+
+}
+#contraseña {
+    margin-left: 68px;
+}
+
+#contenedor2 {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+
+
+.input {
+    height: 15px;
+    margin-left: calc(100% - 95%);
+    justify-content: center;
+}
+
+#olvidaste {
+    margin-top: -5px;
+    color: blue;
+    margin-left: calc(100% - 52%);
+    font-size: 12px;
+}
+
+#formulario2 {
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    width: 320px;
+    background-color: rgb(227, 227, 229);
+    
+}
+
+#iniciarSesionButton {
+ font-weight: bold;
+ font-size: 18px;
+ align-items: center;
+ justify-content: center;
+ margin-left: calc(50% - 65px);
+}
+
+#miembro {
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+    padding: 10px;
+
+}
+
+#registrarse {
+    margin-left: calc(50% - 60px);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px;
+}
+    } 
+
+@media  (min-width: 960px){
+
+    
+    #footer {
+        background-color: aliceblue;
+        width: 960px;
+        min-width: 480px;
+        max-width: 960px;
+    }
+    
+    #hi5 {
+      position: relative;
+    margin-top: 10px;
+    margin: 10px;
+    }
+    
+    #hi {
+        position: absolute;
+        top: -78px;
+        font-size: 60px;
+        color: blue;
+        font-weight: bold;
+    }
+    
+    #cinco {
+      color: orange;
+      font-size: 70px;
+      font-weight: bold;
+    }
+    #buscador {
+        position: relative;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    display: flex;
+    padding: 5px;
+    background-color: rgb(242, 242, 245);
+    height: 80px;
+    width: 600px;
+    margin-left: calc(50% - 304.25px);
+    }
+    #cabecera{
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top:calc(100% - 99%);
+        margin: 2px;
+    }
+    
+    
+    .cabecerahover:hover {
+        color: blue;
+    }
+    
+    #inputBuscador {
+        width: 350px;
+        height: 22px;
+    }
+    
+    #vamos{
+        font-weight: bold;
+    }
+    
+    #googleG {
+        font-size: 35px;
+        color: blue;
+    }
+    
+    #googleO1 {
+        font-size: 30px;
+        color: red;
+    }
+    
+    #googleO2 {
+        font-size: 30px;
+        color: yellow;
+    }
+    
+    #googleG2 {
+        font-size: 30px;
+        color: blue;
+    }
+    
+    #googleL{
+        font-size: 30px;
+        color: green;
+    }
+    
+    #googleE {
+        font-size: 30px;
+        color: red;
+    }
+    
+    #barraNavegacion {
+        position: relative;
+        margin: 0px;
+    }
+    
+    
+    #ayuda {
+        list-style: none;
+       display: flex;
+       flex-direction: row;
+       margin:  5px;
+       margin-left: calc(100% - 38%);
+       width: 250px;
+    }
+    
+    #navegacion {
+        list-style: none;
+       display: flex;
+       flex-direction: row;
+       margin:  2px;
+    
+    }
+    
+    .lista {
+        font-weight: bold;
+        font-size: 12px;
+        padding: 1px;
+        margin: 4px;
+        width: 95px;
+        
+        background-color: rgb(242, 242, 245);
+    }
+    
+    .lista1{
+        font-weight: bold;
+        font-size: 12px;
+        padding: 5px;
+        margin: 1px;
+        width: 30px;
+        
+    }
+    
+    .lista1:hover {
+        color: blue;
+        font-size: 13px;
+    }
+    
+    .lista:hover {
+        color: blue;
+        font-size: 13px;
+    }
+    
+    
+    h1 {
+        justify-content: center;
+        border-radius: 10px;
+        place-items: center;
+        margin-left: 0%;
+        padding: 30px;
+        background-color: rgb(111, 111, 233);
+        color: white;
+        width: 200px;
+        font-size: 18px;
+        height: 60px;
+    }
+    
+    #imagen1 {
+        position: absolute;
+        background-color: green;
+        top: 10%;
+        left: 70%;
+        width: 350px;
+        height: 120px;
+    }
+    
+    #contenido {
+        position: relative;
+    }
+    #noticias {
+        align-items: center;
+        margin-top: 0%;
+        margin-left: 0%;
+        justify-content: calc(50% - 350px);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .noticia {
+        width: 380px;
+
+        justify-content: center;
+    }
+    
+    .titular {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+#primeraSeccion {
+    display: flex;
+    flex-direction: column;
+}
+
+    .titular:hover {
+        font-size: 20px;
+        color: blue;
+    }
+    
+    .contenidoNoticia {
+        font-size: 12px;
+        
+    }
+    
+    #main {
+        position: relative;
+    }
+    
+    #paginaContenedorGeneral {
+        display: flex;
+        
+    }
+    #pagIzquierda {
+        
+        
+        
+    }
+
+    #pagDerecha {
+    
+        margin-left: 68.5%;
+        margin-top: 0%; 
+    }
+    #contenedorPagDerecha {
+        position: relative;
+    }
+    #iniciarSesion {
+        color: orange;
+        font-size: 18px;
+    }
+    
+    #Espera {
+        color: blue;
+        font-size: 20px;
+        padding: 15px;
+    }
+    
+    #formulario1{
+        margin: 10px;
+        padding: 5px;
+        position: relative;
+        width: 320px;
+        background-color: rgb(227, 227, 229);
+        
+    }
+    
+    #contenedor1{
+        width: 350px;
+        display: flex;
+        flex-direction: row;
+       
+        
+        align-items: center;
+       
+    
+    }
+    #contraseña {
+        margin-left: 68px;
+    }
+    
+    #contenedor2 {
+        width: 350px;
+        display: flex;
+        flex-direction: row;
+        
+        align-items: center;
+    }
+    
+    
+    .input {
+        height: 15px;
+        margin-left: calc(100% - 95%);
+        justify-content: center;
+    }
+    
+    #olvidaste {
+        margin-top: -5px;
+        color: blue;
+        margin-left: calc(100% - 52%);
+        font-size: 12px;
+    }
+    
+    #formulario2 {
+        margin: 10px;
+        padding: 5px;
+        position: relative;
+        width: 320px;
+        background-color: rgb(227, 227, 229);
+        
+    }
+    
+    #iniciarSesionButton {
+     font-weight: bold;
+     font-size: 18px;
+     align-items: center;
+     justify-content: center;
+     margin-left: calc(50% - 65px);
+    }
+    
+    #miembro {
+        font-size: 25px;
+        font-weight: bold;
+        color: blue;
+        padding: 10px;
+    
+    }
+    
+    #registrarse {
+        margin-left: calc(50% - 60px);
+        font-size: 18px;
+        font-weight: bold;
+        padding: 7px;
+    }
+}
+
+@media  (min-width: 1328px){
+
+    
+    #footer {
+        background-color: aliceblue;
+        width: auto;
+        min-width: 1328px;
+        max-width: 1500px;
+    }
+    
+    #hi5 {
+      position: relative;
+    margin-top: 10px;
+    margin: 10px;
+    }
+    
+    #hi {
+        position: absolute;
+        top: -78px;
+        font-size: 60px;
+        color: blue;
+        font-weight: bold;
+    }
+    
+    #cinco {
+      color: orange;
+      font-size: 70px;
+      font-weight: bold;
+    }
+    #buscador {
+        position: relative;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    display: flex;
+    padding: 5px;
+    background-color: rgb(242, 242, 245);
+    height: 80px;
+    width: 600px;
+    margin-left: calc(50% - 304.25px);
+    }
+    #cabecera{
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top:calc(100% - 99%);
+        margin: 2px;
+    }
+    
+    
+    .cabecerahover:hover {
+        color: blue;
+    }
+    
+    #inputBuscador {
+        width: 350px;
+        height: 22px;
+    }
+    
+    #vamos{
+        font-weight: bold;
+    }
+    
+    #googleG {
+        font-size: 35px;
+        color: blue;
+    }
+    
+    #googleO1 {
+        font-size: 30px;
+        color: red;
+    }
+    
+    #googleO2 {
+        font-size: 30px;
+        color: yellow;
+    }
+    
+    #googleG2 {
+        font-size: 30px;
+        color: blue;
+    }
+    
+    #googleL{
+        font-size: 30px;
+        color: green;
+    }
+    
+    #googleE {
+        font-size: 30px;
+        color: red;
+    }
+    
+    #barraNavegacion {
+        position: relative;
+        margin: 0px;
+    }
+    
+    
+    #ayuda {
+        list-style: none;
+       display: flex;
+       flex-direction: row;
+       margin:  5px;
+       margin-left: calc(100% - 38%);
+       width: 250px;
+    }
+    
+    #navegacion {
+        list-style: none;
+       display: flex;
+       flex-direction: row;
+       margin:  2px;
+    
+    }
+    
+    .lista {
+        font-weight: bold;
+        font-size: 12px;
+        padding: 1px;
+        margin: 4px;
+        width: 95px;
+        
+        background-color: rgb(242, 242, 245);
+    }
+    
+    .lista1{
+        font-weight: bold;
+        font-size: 12px;
+        padding: 5px;
+        margin: 1px;
+        width: 30px;
+        
+    }
+    
+    .lista1:hover {
+        color: blue;
+        font-size: 13px;
+    }
+    
+    .lista:hover {
+        color: blue;
+        font-size: 13px;
+    }
+    
+    
+    h1 {
+        justify-content: center;
+        border-radius: 10px;
+        place-items: center;
+        margin-left: 10%;
+        padding: 30px;
+        background-color: rgb(111, 111, 233);
+        color: white;
+        width: 450px;
+        font-size: 18px;
+        height: 100px;
+    }
+    
+    #imagen1 {
+        position: absolute;
+        background-color: green;
+        top: 10%;
+        left: 110%;
+        width: 450px;
+        height: 150px;
+    }
+    
+    #contenido {
+        position: relative;
+    }
+    #noticias {
+        align-items: center;
+        margin-top: 0%;
+        margin-left: 0%;
+        justify-content: calc(50% - 350px);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .noticia {
+        width: 380px;
+    font-size: 25px;
+        justify-content: center;
+        margin-left: 25%;
+    }
+    
+    .titular {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+#primeraSeccion {
+    display: flex;
+    flex-direction: column;
+}
+
+    .titular:hover {
+        font-size: 26px;
+        color: blue;
+    }
+    
+    .contenidoNoticia {
+        font-size: 20px;
+        width: 1200px;
+    }
+    
+    #main {
+        position: relative;
+    }
+    
+    #paginaContenedorGeneral {
+        display: flex;
+        width: 100%;
+    }
+    #pagIzquierda {
+        
+        
+        
+    }
+
+    #pagDerecha {
+    
+        margin-left: 150%;
+        margin-top: 0%; 
+    }
+    #contenedorPagDerecha {
+        position: relative;
+    }
+    #iniciarSesion {
+        color: orange;
+        font-size: 18px;
+    }
+    
+    #Espera {
+        color: blue;
+        font-size: 20px;
+        padding: 15px;
+    }
+    
+    #formulario1{
+        margin: 10px;
+        padding: 5px;
+        position: relative;
+        width: 320px;
+        background-color: rgb(227, 227, 229);
+        
+    }
+    
+    #contenedor1{
+        width: 350px;
+        display: flex;
+        flex-direction: row;
+       
+        
+        align-items: center;
+       
+    
+    }
+    #contraseña {
+        margin-left: 68px;
+    }
+    
+    #contenedor2 {
+        width: 350px;
+        display: flex;
+        flex-direction: row;
+        
+        align-items: center;
+    }
+    
+    
+    .input {
+        height: 15px;
+        margin-left: calc(100% - 95%);
+        justify-content: center;
+    }
+    
+    #olvidaste {
+        margin-top: -5px;
+        color: blue;
+        margin-left: calc(100% - 52%);
+        font-size: 12px;
+    }
+    
+    #formulario2 {
+        margin: 10px;
+        padding: 5px;
+        position: relative;
+        width: 320px;
+        background-color: rgb(227, 227, 229);
+        
+    }
+    
+    #iniciarSesionButton {
+     font-weight: bold;
+     font-size: 18px;
+     align-items: center;
+     justify-content: center;
+     margin-left: calc(50% - 65px);
+    }
+    
+    #miembro {
+        font-size: 25px;
+        font-weight: bold;
+        color: blue;
+        padding: 10px;
+    
+    }
+    
+    #registrarse {
+        margin-left: calc(50% - 60px);
+        font-size: 18px;
+        font-weight: bold;
+        padding: 7px;
+    }
+    
+    }
